@@ -25,7 +25,7 @@ extern "C" {
 #include <math.h>		// for orientation
 #include <mmreg.h>		// for WAVEFORMATEXTENSIBLE
 #include <mmsystem.h>	// for timeGetTime()
-
+#include <stdio.h>
 #include <ddk/hidsdi.h>
 
 // auto-link with the necessary libs

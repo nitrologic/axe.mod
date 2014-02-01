@@ -282,7 +282,7 @@ static void Pa_EndUsageCalculation( internalPortAudioStream   *stream )
 }
 /****************************************** END CPU UTILIZATION *******/
 
-static void Pa_InitializeNumDevices( void )
+void Pa_InitializeNumDevices( void )
 {
     sNumInputDevices = waveInGetNumDevs();
     if( sNumInputDevices > 0 )
@@ -309,7 +309,7 @@ static void Pa_InitializeNumDevices( void )
     sNumDevices = sNumInputDevices + sNumOutputDevices;
 }
 
-static PaError Pa_AllocateDevicePtrs( void )
+PaError Pa_AllocateDevicePtrs( void )
 {
     int numBytes;
     int i;
