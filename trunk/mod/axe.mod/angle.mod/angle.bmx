@@ -1,4 +1,4 @@
-
+		
 Rem
 bbdoc: 
 End Rem
@@ -86,6 +86,8 @@ Import "src/libGLESv2/renderer/loadimage.cpp"
 'Import "src/libGLESv2/renderer/loadimageSSE2.cpp"
 'Import "src/libGLESv2/renderer/Renderer.cpp"
 	
+Rem	
+
 Import "src/libGLESv2/renderer/d3d/d3dBufferD3D.cpp"
 Import "src/libGLESv2/renderer/d3d/DynamicHLSL.cpp"
 'Import "src/libGLESv2/renderer/d3d/HLSLCompiler.cpp"
@@ -134,6 +136,8 @@ Import "src/libGLESv2/renderer/d3d/d3d11/ShaderExecutable11.cpp"
 Import "src/libGLESv2/renderer/d3d/d3d11/SwapChain11.cpp"
 Import "src/libGLESv2/renderer/d3d/d3d11/TextureStorage11.cpp"
 Import "src/libGLESv2/renderer/d3d/d3d11/VertexBuffer11.cpp"
+
+EndRem
 
 Import "src/compiler/preprocessor/DiagnosticsBase.cpp"
 Import "src/compiler/preprocessor/DirectiveHandlerBase.cpp"
